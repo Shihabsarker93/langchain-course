@@ -27,6 +27,8 @@ langchain-pinecone = "*"
 certifi = "*"
 langchain-chroma = "*"
 python-dotenv = "*"
+langchain-google-genai = "*"
+langchain-text-splitters = "*"
 
 [dev-packages]
 ipykernel = "*"
