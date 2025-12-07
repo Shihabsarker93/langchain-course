@@ -29,6 +29,7 @@ langchain-chroma = "*"
 python-dotenv = "*"
 langchain-google-genai = "*"
 langchain-text-splitters = "*"
+langchain-openai = "*"
 
 [dev-packages]
 ipykernel = "*"
