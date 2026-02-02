@@ -1,0 +1,23 @@
+[project]
+name = "playground"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "chromadb>=0.4.1",
+    "faiss-cpu>=1.7.4",
+    "ipykernel>=6.29.0",
+    "langchain>=0.1.0",
+    "langchain-community>=0.0.30",
+    "langchain-groq>=0.1.0",
+    "langchain-openai>=0.1.0",
+    "langchain-text-splitters>=0.0.1",
+    "pandas>=2.1,<3.0",
+    "openpyxl>=3.1.0",
+    "pymupdf>=1.23.0",
+    "pypdf>=4.0.0",
+    "python-dotenv>=1.0.0",
+    "sentence-transformers>=2.6.0",
+    "tiktoken>=0.6.0",
+]

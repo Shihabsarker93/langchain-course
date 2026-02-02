@@ -1,0 +1,18 @@
+BRTA Information (BRTA তথ্য)
+
+Bangladesh Road Transport Authority (BRTA) driving license, vehicle registration,
+এবং smart card services প্রদান করে।
+
+Driving License Types:
+1. Learner License (লার্নার লাইসেন্স)
+2. Professional License
+3. Non-professional License
+
+BRTA services include:
+- Online driving license application
+- Smart card delivery status
+- Vehicle registration verification
+
+সাধারণ প্রশ্ন:
+- Driving license renewal fee কত?
+- BRTA smart card কবে আসবে?
