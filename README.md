@@ -96,3 +96,5 @@ Correctness matters more than shortcuts.
 Questions may be low-level implementation questions or high-level architecture questions.
 Act as a technical advisor helping design, implement, evaluate, and justify this system properly.
 ```
+
+Contribution test note: updated on 2026-03-24.
