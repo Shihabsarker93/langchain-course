@@ -97,3 +97,32 @@ Questions may be low-level implementation questions or high-level architecture q
 Act as a technical advisor helping design, implement, evaluate, and justify this system properly.
 ```
 
+## Reusable Prompt For Instructor Files
+Use this prompt whenever you want an instructor-provided file converted into something that runs cleanly in this repository.
+
+```text
+Treat this file as instructor-provided code and convert it to run in my local environment without changing the core lesson logic unless necessary.
+
+My environment/context:
+- I am building a final-year thesis project: a high-accuracy bilingual (Bangla-English) RAG system.
+- My repo uses `uv` and the correct notebook/kernel environment is the project `.venv`.
+- I usually do not use OpenAI API keys unless I explicitly say so.
+- Prefer using my existing local setup, especially:
+  - `GROQ_API_KEY` for LLM calls when suitable
+  - `GOOGLE_API_KEY` for Google/Gemini when suitable
+  - local/Hugging Face models when possible for embeddings or preprocessing
+- My `.env` file should be loaded safely and explicitly.
+- File paths should work locally, even if the notebook is run from the repo root or notebook folder.
+- Update outdated LangChain imports or deprecated model names if needed.
+- Remove or replace instructor assumptions that do not fit my setup.
+- Keep the notebook/file runnable, clean, and easy to explain.
+- If a required local asset is missing, make the code robust by handling it clearly or creating a small demo fallback when appropriate.
+- Prefer thesis-appropriate choices over English-only tutorial defaults, especially for embeddings and retrieval.
+- After editing, briefly tell me:
+  1. what you changed
+  2. why it was needed
+  3. anything I still need to install, select, or rerun
+
+Here is the file to update:
+[PASTE FILE PATH HERE]
+```
